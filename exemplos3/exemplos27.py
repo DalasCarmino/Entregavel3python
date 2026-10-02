@@ -1,0 +1,7 @@
+import calculadora
+calculadora.somar(2, 3)
+from calculadora import somar
+somar(2, 3)
+from calculadora import \
+subtrair as menos
+print(menos(20, 8)) # 12
